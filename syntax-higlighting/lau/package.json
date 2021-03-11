@@ -1,0 +1,32 @@
+{
+    "name": "lau",
+    "displayName": "Lau",
+    "description": "The better Lua",
+    "version": "1.0.0",
+    "publisher": "notsoclassy",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "scripts": {
+        "update-grammar": "node ../node_modules/vscode-grammar-updater/bin textmate/lua.tmbundle Syntaxes/Lua.plist ./syntaxes/lau.tmLanguage.json"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "lau",
+                "extensions": [
+                    ".lau"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lau",
+                "scopeName": "source.lau",
+                "path": "./syntaxes/lau.tmLanguage.json"
+            }
+        ]
+    }
+}

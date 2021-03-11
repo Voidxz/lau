@@ -36,9 +36,9 @@
 /* ORDER RESERVED */
 const char *const luaX_tokens [] = {
     "also", "end", "fulfil", "otherwise", "othergiven", // "and", "break", "do", "else", "elseif",
-    "stop", "no", "iter", "perform", "given", // "end", "false", "for", "function", "if",
-    "by", "locale", "nothing", "never", "else", "redo", // "in", "local", "nil", "not", "or", "repeat",
-    "sendback", "further", "yes", "till", "span", // "return", "then", "true", "until", "while",
+    ">", "no", "iter", "subroutine", "given", // "end", "false", "for", "function", "if",
+    "by", "local", "null", "never", "else", "redo", // "in", "local", "nil", "not", "or", "repeat",
+    "sendback", "further", "yes", "till", "while", // "return", "then", "true", "until", "while",
     "..", "...", "==", ">=", "<=", "!=",
     "<number>", "<name>", "<string>", "<eof>",
     NULL

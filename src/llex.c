@@ -362,6 +362,22 @@ static int llex (LexState *ls, SemInfo *seminfo) {
             next(ls);
             return TK_END;
           }
+          case '%': {
+            next(ls);
+            return TK_FOR;
+          }
+          case '^': {
+            next(ls);
+            return TK_UNTIL;
+          }
+          case '*': {
+            next(ls);
+            return TK_THEN;
+          }
+          case '$': {
+            next(ls);
+            return TK_DO;
+          }
         }
       }
       case '&': {

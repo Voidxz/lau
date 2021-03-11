@@ -1,0 +1,30 @@
+& ~/ is equal to perform
+& ~| is equal to stop
+& ~: is equal to given
+& ~- is equal to redo
+& ~^ is equal to till
+& ~+ is equal to span
+& ~% is equal to iter
+& ~* is equal to further
+& ~$ is equal to fulfil
+
+~/name(params)
+	& <perform body>
+~|
+
+~: yes == yes ~*
+	& <given body>
+~|
+
+~-
+	& <redo body>
+~^ yes == yes
+
+~+ yes ~$
+	& <span body>
+	end
+~|
+
+~% i = 1, 10 ~$
+	& <iter body>
+~|

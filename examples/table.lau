@@ -1,0 +1,6 @@
+locale table = [
+	key = 1,
+	{'string key'} = 1
+]
+
+print(table.key, table{'string key'})

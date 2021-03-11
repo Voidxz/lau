@@ -1,6 +1,5 @@
 # Lau
-Lau but with better syntax,
-example:
+
 
 ```
 locale variable = 'hello world'

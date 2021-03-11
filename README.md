@@ -1,3 +1,4 @@
+# Lau
 Lau is a much better version of Lua, here is some example code!
 
 ```

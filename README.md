@@ -1,6 +1,6 @@
 # Lau
 
-
+example
 ```
 locale variable = 'hello world'
 

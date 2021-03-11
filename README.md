@@ -1,5 +1,6 @@
 # Lau
-Lau is a much better version of Lua, here is some example code!
+Lau but with better syntax,
+example:
 
 ```
 locale variable = 'hello world'

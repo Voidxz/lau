@@ -1,6 +1,6 @@
 & ~/ is equal to perform
 & ~| is equal to stop
-& ~: is equal to given
+& ~? is equal to given
 & ~- is equal to redo
 & ~^ is equal to till
 & ~+ is equal to span
@@ -12,7 +12,7 @@
 	& <perform body>
 ~|
 
-~: yes == yes ~*
+~? yes == yes ~*
 	& <given body>
 ~|
 

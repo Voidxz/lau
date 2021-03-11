@@ -342,7 +342,7 @@ static int llex (LexState *ls, SemInfo *seminfo) {
       case '~': {
         next(ls);
         switch(ls->current) {
-          case ':': {
+          case '?': {
             next(ls);
             return TK_IF;
           }

@@ -62,7 +62,7 @@
 			"name": "constant.numeric.float.lua"
 		},
 		{
-			"match": "(~[\\:\\-\\+\\/\\|\\^\\*\\$\\%]{1})",
+			"match": "(~[\\?\\-\\+\\/\\|\\^\\*\\$\\%]{1})",
 			"name": "constant.numeric.float.hexadecimal.lua"
 		},
 		{
